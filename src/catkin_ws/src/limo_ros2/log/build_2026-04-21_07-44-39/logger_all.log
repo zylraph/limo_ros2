@@ -1,0 +1,570 @@
+[0.102s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.102s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe396549090>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe396548be0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe396548be0>>, mixin_verb=('build',))
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.250s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pretil/catkin_ws/src/limo_ros2'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(limo_base) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_base' with type 'ros.ament_cmake' and name 'limo_base'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(limo_bringup) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_bringup' with type 'ros.ament_cmake' and name 'limo_bringup'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(limo_car) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_car' with type 'ros.ament_cmake' and name 'limo_car'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(limo_description) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_description' with type 'ros.ament_cmake' and name 'limo_description'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extensions ['ignore', 'ignore_ament_install']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extension 'ignore'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(limo_gazebosim) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_gazebosim' with type 'ros.ament_cmake' and name 'limo_gazebosim'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(limo_msgs) by extension 'ros'
+[0.273s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_msgs' with type 'ros.ament_cmake' and name 'limo_msgs'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(limo_navigation) by extension 'ros'
+[0.274s] DEBUG:colcon.colcon_core.package_identification:Package 'limo_navigation' with type 'ros.ament_cmake' and name 'limo_navigation'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(ydlidar_ros2) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'ydlidar_ros2' with type 'ros.ament_cmake' and name 'ydlidar_ros2_driver'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'cmake_args' from command line to 'None'
+[0.301s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_car' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'limo_car' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_car', 'symlink_install': True, 'test_result_base': None}
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_target' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.302s] Level 5:colcon.colcon_core.verb:set package 'limo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.302s] DEBUG:colcon.colcon_core.verb:Building package 'limo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_description', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_gazebosim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'limo_gazebosim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_gazebosim', 'symlink_install': True, 'test_result_base': None}
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.303s] Level 5:colcon.colcon_core.verb:set package 'limo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.303s] DEBUG:colcon.colcon_core.verb:Building package 'limo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'limo_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.304s] DEBUG:colcon.colcon_core.verb:Building package 'limo_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_navigation', 'symlink_install': True, 'test_result_base': None}
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.304s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'ydlidar_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'ydlidar_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/ydlidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.305s] DEBUG:colcon.colcon_core.verb:Building package 'limo_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_base', 'symlink_install': True, 'test_result_base': None}
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.305s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'limo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.306s] DEBUG:colcon.colcon_core.verb:Building package 'limo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup', 'merge_install': False, 'path': '/home/pretil/catkin_ws/src/limo_ros2/limo_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.306s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.307s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_msgs' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_msgs'
+[0.309s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.310s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_car' with build type 'ament_cmake'
+[0.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_car'
+[0.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_description' with build type 'ament_cmake'
+[0.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_description'
+[0.321s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.321s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_gazebosim' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_gazebosim'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_navigation' with build type 'ament_cmake'
+[0.331s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_navigation'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/ydlidar_ros2' with build type 'ament_cmake'
+[0.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/ydlidar_ros2'
+[0.337s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.337s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs -- -j12 -l12
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_car -- -j12 -l12
+[0.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_description -- -j12 -l12
+[0.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim -- -j12 -l12
+[0.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation -- -j12 -l12
+[0.362s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver -- -j12 -l12
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_car -- -j12 -l12
+[0.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_car
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim -- -j12 -l12
+[0.403s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_description -- -j12 -l12
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_description
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation -- -j12 -l12
+[0.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation
+[0.429s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_gazebosim)
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_gazebosim
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim' for CMake module files
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim' for CMake config files
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_gazebosim', 'cmake_prefix_path')
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/hook/cmake_prefix_path.ps1'
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/hook/cmake_prefix_path.dsv'
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/hook/cmake_prefix_path.sh'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/bin'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/lib/pkgconfig/limo_gazebosim.pc'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/lib/python3.10/site-packages'
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/bin'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.ps1'
+[0.448s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.sh'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.bash'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.zsh'
+[0.452s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/colcon-core/packages/limo_gazebosim)
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_gazebosim)
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim' for CMake module files
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim' for CMake config files
+[0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_gazebosim', 'cmake_prefix_path')
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/hook/cmake_prefix_path.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/hook/cmake_prefix_path.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/hook/cmake_prefix_path.sh'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/bin'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/lib/pkgconfig/limo_gazebosim.pc'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/lib/python3.10/site-packages'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/bin'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.ps1'
+[0.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.dsv'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.sh'
+[0.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.bash'
+[0.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/limo_gazebosim/package.zsh'
+[0.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim/share/colcon-core/packages/limo_gazebosim)
+[0.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_car)
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car' for CMake module files
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_car
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car' for CMake config files
+[0.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_car', 'cmake_prefix_path')
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/hook/cmake_prefix_path.ps1'
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/hook/cmake_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/hook/cmake_prefix_path.sh'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/bin'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/lib/pkgconfig/limo_car.pc'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/lib/python3.10/site-packages'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/bin'
+[0.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.sh'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.bash'
+[0.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.zsh'
+[0.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/colcon-core/packages/limo_car)
+[0.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_car)
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car' for CMake module files
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car' for CMake config files
+[0.475s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_car', 'cmake_prefix_path')
+[0.475s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/hook/cmake_prefix_path.ps1'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/hook/cmake_prefix_path.dsv'
+[0.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/hook/cmake_prefix_path.sh'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/bin'
+[0.477s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/lib/pkgconfig/limo_car.pc'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/lib/python3.10/site-packages'
+[0.478s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/bin'
+[0.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.ps1'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.dsv'
+[0.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.sh'
+[0.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.bash'
+[0.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.zsh'
+[0.482s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/colcon-core/packages/limo_car)
+[0.482s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_description)
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description' for CMake module files
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_description
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description' for CMake config files
+[0.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_description', 'cmake_prefix_path')
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/hook/cmake_prefix_path.ps1'
+[0.486s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/hook/cmake_prefix_path.dsv'
+[0.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/hook/cmake_prefix_path.sh'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/bin'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/lib/pkgconfig/limo_description.pc'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/lib/python3.10/site-packages'
+[0.489s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/bin'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.bash'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.zsh'
+[0.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/colcon-core/packages/limo_description)
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_description)
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description' for CMake module files
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_description', 'cmake_prefix_path')
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/hook/cmake_prefix_path.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/hook/cmake_prefix_path.sh'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/bin'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/lib/pkgconfig/limo_description.pc'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/lib/python3.10/site-packages'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/bin'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.bash'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/limo_description/package.zsh'
+[0.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_description/share/colcon-core/packages/limo_description)
+[0.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver -- -j12 -l12
+[0.503s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver
+[0.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_navigation)
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation' for CMake module files
+[0.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation' for CMake config files
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_navigation', 'cmake_prefix_path')
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/hook/cmake_prefix_path.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/hook/cmake_prefix_path.dsv'
+[0.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/hook/cmake_prefix_path.sh'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/bin'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/lib/pkgconfig/limo_navigation.pc'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/lib/python3.10/site-packages'
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/bin'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.zsh'
+[0.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/colcon-core/packages/limo_navigation)
+[0.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_navigation)
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation' for CMake module files
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation' for CMake config files
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_navigation', 'cmake_prefix_path')
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/hook/cmake_prefix_path.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/hook/cmake_prefix_path.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/hook/cmake_prefix_path.sh'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/bin'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/lib/pkgconfig/limo_navigation.pc'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/lib/python3.10/site-packages'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/bin'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.sh'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.bash'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.zsh'
+[0.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/colcon-core/packages/limo_navigation)
+[0.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver' for CMake module files
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver' for CMake config files
+[0.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[0.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/lib'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/bin'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[0.532s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[0.533s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/bin'
+[0.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[0.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[0.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[0.536s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[0.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ydlidar_ros2_driver)
+[0.537s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver' for CMake module files
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver' for CMake config files
+[0.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('ydlidar_ros2_driver', 'cmake_prefix_path')
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.ps1'
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/hook/cmake_prefix_path.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/lib'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/bin'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/lib/pkgconfig/ydlidar_ros2_driver.pc'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/lib/python3.10/site-packages'
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/bin'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.sh'
+[0.544s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.bash'
+[0.545s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.zsh'
+[0.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver/share/colcon-core/packages/ydlidar_ros2_driver)
+[0.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs -- -j12 -l12
+[0.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs
+[0.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_msgs)
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs' for CMake module files
+[0.786s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs' for CMake config files
+[0.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'cmake_prefix_path')
+[0.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.ps1'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.dsv'
+[0.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.sh'
+[0.789s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib'
+[0.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'ld_library_path_lib')
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.sh'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/bin'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib/pkgconfig/limo_msgs.pc'
+[0.790s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib/python3.10/site-packages'
+[0.791s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/bin'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.ps1'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.dsv'
+[0.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.sh'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.bash'
+[0.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.zsh'
+[0.793s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/colcon-core/packages/limo_msgs)
+[0.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_msgs)
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs' for CMake module files
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs' for CMake config files
+[0.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'cmake_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/cmake_prefix_path.sh'
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib'
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_msgs', 'ld_library_path_lib')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.ps1'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/hook/ld_library_path_lib.sh'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/bin'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib/pkgconfig/limo_msgs.pc'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib/python3.10/site-packages'
+[0.799s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/bin'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.ps1'
+[0.800s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.dsv'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.sh'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.bash'
+[0.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/limo_msgs/package.zsh'
+[0.802s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/share/colcon-core/packages/limo_msgs)
+[0.802s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_base' with build type 'ament_cmake'
+[0.802s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_base'
+[0.803s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.807s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pretil/catkin_ws/src/limo_ros2/limo_bringup' with build type 'ament_cmake'
+[0.807s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pretil/catkin_ws/src/limo_ros2/limo_bringup'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_base': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_base -- -j12 -l12
+[0.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup -- -j12 -l12
+[0.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup -- -j12 -l12
+[0.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup
+[0.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_bringup)
+[0.863s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup' for CMake module files
+[0.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup' returned '0': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup
+[0.864s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup' for CMake config files
+[0.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_bringup', 'cmake_prefix_path')
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/hook/cmake_prefix_path.ps1'
+[0.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/hook/cmake_prefix_path.dsv'
+[0.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/hook/cmake_prefix_path.sh'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/bin'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/lib/pkgconfig/limo_bringup.pc'
+[0.866s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/lib/python3.10/site-packages'
+[0.867s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/bin'
+[0.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.ps1'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.dsv'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.sh'
+[0.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.bash'
+[0.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.zsh'
+[0.869s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/colcon-core/packages/limo_bringup)
+[0.870s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_bringup)
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup' for CMake module files
+[0.870s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup' for CMake config files
+[0.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_bringup', 'cmake_prefix_path')
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/hook/cmake_prefix_path.ps1'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/hook/cmake_prefix_path.dsv'
+[0.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/hook/cmake_prefix_path.sh'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/bin'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/lib/pkgconfig/limo_bringup.pc'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/lib/python3.10/site-packages'
+[0.872s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/bin'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.ps1'
+[0.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.dsv'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.sh'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.bash'
+[0.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/limo_bringup/package.zsh'
+[0.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup/share/colcon-core/packages/limo_bringup)
+[0.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_base' returned '0': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_base -- -j12 -l12
+[0.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_base': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_base
+[0.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_base)
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base' for CMake module files
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_base' returned '0': CMAKE_PREFIX_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs:/home/pretil/catkin_ws/src/limo_ros2/install/ydlidar_ros2_driver:/home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation:/home/pretil/catkin_ws/src/limo_ros2/install/limo_bringup:/home/pretil/catkin_ws/src/limo_ros2/install/limo_base:/home/pretil/catkin_ws/src/limo_ros2/install/limo_gazebosim:/home/pretil/catkin_ws/src/limo_ros2/install/limo_description:/home/pretil/catkin_ws/src/limo_ros2/install/limo_car:/home/pretil/catkin_ws/install/limo_base:/home/pretil/catkin_ws/install/limo_msgs:/home/pretil/catkin_ws/install/limo_description:/home/pretil/catkin_ws/install/limo_car:/opt/ros/humble LD_LIBRARY_PATH=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs/lib:/home/pretil/catkin_ws/install/limo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_base
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base' for CMake config files
+[0.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_base', 'cmake_prefix_path')
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/hook/cmake_prefix_path.ps1'
+[0.896s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/hook/cmake_prefix_path.dsv'
+[0.897s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/hook/cmake_prefix_path.sh'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/lib'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/bin'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/lib/pkgconfig/limo_base.pc'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/lib/python3.10/site-packages'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/bin'
+[0.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.ps1'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.dsv'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.sh'
+[0.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.bash'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.zsh'
+[0.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/colcon-core/packages/limo_base)
+[0.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_base)
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base' for CMake module files
+[0.901s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base' for CMake config files
+[0.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_base', 'cmake_prefix_path')
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/hook/cmake_prefix_path.ps1'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/hook/cmake_prefix_path.dsv'
+[0.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/hook/cmake_prefix_path.sh'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/lib'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/bin'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/lib/pkgconfig/limo_base.pc'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/lib/python3.10/site-packages'
+[0.903s] Level 1:colcon.colcon_core.environment:checking '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/bin'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.ps1'
+[0.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.sh'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.bash'
+[0.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/limo_base/package.zsh'
+[0.906s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pretil/catkin_ws/src/limo_ros2/install/limo_base/share/colcon-core/packages/limo_base)
+[0.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.906s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.911s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.912s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.912s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.913s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[0.914s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.914s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretil/catkin_ws/src/limo_ros2/install/local_setup.ps1'
+[0.915s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pretil/catkin_ws/src/limo_ros2/install/_local_setup_util_ps1.py'
+[0.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretil/catkin_ws/src/limo_ros2/install/setup.ps1'
+[0.918s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretil/catkin_ws/src/limo_ros2/install/local_setup.sh'
+[0.918s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pretil/catkin_ws/src/limo_ros2/install/_local_setup_util_sh.py'
+[0.919s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretil/catkin_ws/src/limo_ros2/install/setup.sh'
+[0.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretil/catkin_ws/src/limo_ros2/install/local_setup.bash'
+[0.921s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretil/catkin_ws/src/limo_ros2/install/setup.bash'
+[0.922s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pretil/catkin_ws/src/limo_ros2/install/local_setup.zsh'
+[0.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pretil/catkin_ws/src/limo_ros2/install/setup.zsh'

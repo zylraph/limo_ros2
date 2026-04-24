@@ -1,0 +1,1 @@
+Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pretil/catkin_ws/src/limo_ros2/limo_msgs -DCMAKE_INSTALL_PREFIX=/home/pretil/catkin_ws/src/limo_ros2/install/limo_msgs

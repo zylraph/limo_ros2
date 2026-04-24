@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b95a50102ebdeafb8d37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ydlidar_ros2_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2db3cc4ce6f1cdf0bcc8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_ros2_driver_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_ros2_driver_client-d8b427056da2a6b6b7a4.json",
+					"name" : "ydlidar_ros2_driver_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_ros2_driver_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_ros2_driver_node-01741fbdbb81c2947cad.json",
+					"name" : "ydlidar_ros2_driver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ydlidar_ros2_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ydlidar_ros2_driver_uninstall-b99939c7554749627a41.json",
+					"name" : "ydlidar_ros2_driver_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pretil/catkin_ws/src/limo_ros2/build/ydlidar_ros2_driver",
+		"source" : "/home/pretil/catkin_ws/src/limo_ros2/ydlidar_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

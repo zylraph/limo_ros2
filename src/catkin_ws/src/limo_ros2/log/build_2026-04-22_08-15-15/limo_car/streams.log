@@ -1,0 +1,38 @@
+[0.027s] Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_car -- -j12 -l12
+[0.060s] Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_car -- -j12 -l12
+[0.069s] Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_car
+[0.077s] -- Install configuration: ""
+[0.077s] -- Execute custom install script
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/launch/ackermann.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/launch/ackermann_gazebo.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/launch/display_ackermann.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/gazebo/ackermann.xacro
+[0.079s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/gazebo/ackermann_with_sensor.xacro
+[0.079s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/gazebo/sensor.xacro
+[0.083s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/meshes/limo_base.dae
+[0.084s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/meshes/limo_base.stl
+[0.086s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/meshes/limo_wheel.dae
+[0.086s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/meshes/limo_wheel.stl
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/rviz/gazebo.rviz
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/rviz/urdf.rviz
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/urdf/limo_ackerman_base.xacro
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/urdf/limo_anteil.xacro
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/urdf/limo_steering_hinge.xacro
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/worlds/empty_world.world
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/worlds/turtlebot3_world.world
+[0.087s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/ament_index/resource_index/package_run_dependencies/limo_car
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/ament_index/resource_index/parent_prefix_path/limo_car
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/environment/ament_prefix_path.sh
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/environment/ament_prefix_path.dsv
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/environment/path.sh
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/environment/path.dsv
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/local_setup.bash
+[0.088s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/local_setup.sh
+[0.089s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/local_setup.zsh
+[0.089s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/local_setup.dsv
+[0.089s] -- Symlinking: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.dsv
+[0.096s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/ament_index/resource_index/packages/limo_car
+[0.096s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/cmake/limo_carConfig.cmake
+[0.096s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/cmake/limo_carConfig-version.cmake
+[0.097s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_car/share/limo_car/package.xml
+[0.100s] Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_car' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_car

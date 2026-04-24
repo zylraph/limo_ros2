@@ -1,0 +1,41 @@
+[0.021s] Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation -- -j12 -l12
+[0.064s] Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation -- -j12 -l12
+[0.066s] Invoking command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation
+[0.076s] -- Install configuration: ""
+[0.077s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/cartographer.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/limo_controller.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/limo_localization.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/limo_navigation.launch.py
+[0.078s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/occupancy_grid.launch.py
+[0.079s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/slam_offline_map_launch.py
+[0.079s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//maps/simple_map.pgm
+[0.080s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//maps/simple_map.yaml
+[0.080s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//params/limo_lds_2d.lua
+[0.080s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//params/mapper_params_offline.yaml
+[0.080s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//params/nav2_params.yaml
+[0.080s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//params/navigate_w_replanning_and_recovery.xml
+[0.080s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//rviz/limo_navigation.rviz
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//rviz/slam_toolbox_default.rviz
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/cartographer.launch.py
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/limo_controller.launch.py
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/limo_localization.launch.py
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/limo_navigation.launch.py
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/occupancy_grid.launch.py
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation//launch/slam_offline_map_launch.py
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/ament_index/resource_index/package_run_dependencies/limo_navigation
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/ament_index/resource_index/parent_prefix_path/limo_navigation
+[0.081s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/environment/ament_prefix_path.sh
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/environment/ament_prefix_path.dsv
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/environment/path.sh
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/environment/path.dsv
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/local_setup.bash
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/local_setup.sh
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/local_setup.zsh
+[0.082s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/local_setup.dsv
+[0.083s] -- Symlinking: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.dsv
+[0.093s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/ament_index/resource_index/packages/limo_navigation
+[0.093s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/cmake/limo_navigationConfig.cmake
+[0.093s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/cmake/limo_navigationConfig-version.cmake
+[0.093s] -- Up-to-date symlink: /home/pretil/catkin_ws/src/limo_ros2/install/limo_navigation/share/limo_navigation/package.xml
+[0.141s] Invoked command in '/home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/src/limo_ros2/build/limo_navigation
