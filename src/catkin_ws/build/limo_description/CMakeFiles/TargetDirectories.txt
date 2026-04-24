@@ -1,9 +1,0 @@
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/uninstall.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/limo_description_uninstall.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/test.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/edit_cache.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/rebuild_cache.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/list_install_components.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/install.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/install/local.dir
-/home/pretil/catkin_ws/build/limo_description/CMakeFiles/install/strip.dir

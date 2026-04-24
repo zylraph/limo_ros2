@@ -1,9 +1,0 @@
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/uninstall.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/limo_bringup_uninstall.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/test.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/edit_cache.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/rebuild_cache.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/list_install_components.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/install.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/install/local.dir
-/home/pretil/catkin_ws/src/limo_ros2/build/limo_bringup/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/pretil/catkin_ws/src/limo_ros2/limo_gazebosim/launch/limo_gazebo_diff.launch.py

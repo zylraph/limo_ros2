@@ -1,4 +1,0 @@
-Invoking command in '/home/pretil/catkin_ws/build/limo_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/build/limo_navigation -- -j12 -l12
-Invoked command in '/home/pretil/catkin_ws/build/limo_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pretil/catkin_ws/build/limo_navigation -- -j12 -l12
-Invoking command in '/home/pretil/catkin_ws/build/limo_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/build/limo_navigation
-Invoked command in '/home/pretil/catkin_ws/build/limo_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pretil/catkin_ws/build/limo_navigation
