@@ -1,0 +1,37 @@
+services:
+  limo_docker:
+    build:
+      context: .
+      args:
+        USERNAME: ${USER:-ros2user}
+        USER_UID: ${UID:-1000}
+        USER_GID: ${GID:-1000}
+    image: ros2-humble:latest
+    container_name: limo_docker
+    network_mode: host
+    ipc: "host"
+    pid: host
+    stdin_open: true
+    tty: true
+    working_dir: $HOME
+    user: ${USER:-ros2user}
+
+    environment:
+      - ROS_DOMAIN_ID=67
+      - ROS_AUTOMATIC_DISCOVERY_RANGE=LOCALHOST
+      - DISPLAY=${DISPLAY}
+      - LIBGL_ALWAYS_SOFTWARE=1
+      - QT_X11_NO_MITSHM=1
+      - RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+    volumes:
+      - workspace:$HOME
+      - ./src/catkin_ws:$HOME/catkin_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - $HOME/.Xauthority:/root/.Xauthority:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    command: /bin/bash
+    devices:
+      - /dev/dri:/dev/dri
+volumes:
+  workspace:

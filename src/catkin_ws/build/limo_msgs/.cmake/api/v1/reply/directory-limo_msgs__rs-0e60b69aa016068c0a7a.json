@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "limo_msgs__rs",
+		"source" : "/home/pretil/catkin_ws/build/limo_msgs/limo_msgs__rs"
+	}
+}
