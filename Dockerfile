@@ -31,15 +31,15 @@ RUN apt update && apt install -y \
     ros-humble-navigation2 \
     ros-humble-nav2-bringup \
     ros-humble-slam-toolbox
-RUN git clone https://github.com/YDLIDAR/YDLidar-SDK.git /tmp/YDLidar-SDK && \
-	cd /tmp/YDLidar-SDK && \
-	mkdir build && cd build && \
+RUN git clone https://github.com/YDLIDAR/YDLidar-SDK.git
+RUN 	mkdir -p YDLidar-SDK/build && \
+	cd YDLidar-SDK/build && \
 	cmake .. && make && make install && \
+	cd .. && pip install . && cd .. &&\
 	rm -rf /tmp/YDLidar.sdk
 RUN echo "source /opt/ros/humble/setup.bash" >> /home/$USERNAME/.bashrc && \
     echo "source /usr/share/gazebo/setup.sh" >> /home/$USERNAME/.bashrc && \
     echo "source ~/catkin_ws/install/setup.bash" >> /home/$USERNAME/.bashrc
-RUN echo "source ~/catkin_ws/src/limo_ros2/install/setup.bash" >> /home/$USERNAME/.bashrc
 
 ENV SHELL=/bin/bash
 ENV RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
