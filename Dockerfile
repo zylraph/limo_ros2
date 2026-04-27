@@ -34,8 +34,7 @@ RUN apt update && apt install -y \
 RUN git clone https://github.com/YDLIDAR/YDLidar-SDK.git
 RUN 	mkdir -p YDLidar-SDK/build && \
 	cd YDLidar-SDK/build && \
-	cmake .. && make && make install && \
-	cd .. && pip install . && cd .. &&\
+	cmake .. && make && sudo make install && \
 	rm -rf /tmp/YDLidar.sdk
 RUN echo "source /opt/ros/humble/setup.bash" >> /home/$USERNAME/.bashrc && \
     echo "source /usr/share/gazebo/setup.sh" >> /home/$USERNAME/.bashrc && \
