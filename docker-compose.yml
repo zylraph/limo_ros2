@@ -33,5 +33,7 @@ services:
     command: /bin/bash
     devices:
       - /dev/dri:/dev/dri
+      - /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev/ttyUSB1:/dev/ttyUSB1
 volumes:
   workspace:

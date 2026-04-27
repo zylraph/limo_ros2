@@ -19,7 +19,7 @@ def generate_launch_description():
     # Create the launch configuration variables
     declare_port_name = DeclareLaunchArgument(
         'port_name',
-        default_value='ttyTHS1')
+        default_value='ttyUSB1')
 
     declare_odom_name = DeclareLaunchArgument(
         name='odom_topic_name',
