@@ -35,5 +35,6 @@ services:
       - /dev/dri:/dev/dri
       - /dev/ttyUSB0:/dev/ttyUSB0
       - /dev/ttyUSB1:/dev/ttyUSB1
+      - /dev/ydlidar:/dev/ydlidar
 volumes:
   workspace:
